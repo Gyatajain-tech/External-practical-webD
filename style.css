@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section (Carousel) */
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.carousel-caption h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Popular Destinations */
+.destinations, .packages, .cities {
+  background-color: #f8f9fa;
+}
+
+.destination-container, .package-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.destination, .package {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 280px;
+}
+
+.destination img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+  background: #343a40;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+}
